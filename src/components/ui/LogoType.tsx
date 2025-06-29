@@ -1,4 +1,6 @@
-const LogoType = () => {
+import type { JSX } from "react"
+
+const LogoType = (): JSX.Element => {
     return (
         // Logo Type
         <div className="flex items-center gap-x-1.5">

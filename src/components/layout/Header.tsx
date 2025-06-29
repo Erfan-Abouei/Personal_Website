@@ -3,9 +3,11 @@ import { HiBars3CenterLeft } from "react-icons/hi2";
 import { HiArrowDownOnSquare } from "react-icons/hi2";
 
 // Other Components
+import type { JSX } from "react";
+
 import LogoType from "../ui/LogoType"
 
-const Header = () => {
+const Header = (): JSX.Element => {
     return (
         <header>
             <div className="container">
