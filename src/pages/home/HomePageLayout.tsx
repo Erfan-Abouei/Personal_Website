@@ -1,14 +1,13 @@
-import Pattern from "@/components/shared/Pattern"
+import Header from "@/components/layout/Header"
+import Pattern from "@/components/ui/Pattern"
 import usePageTitle from "@/hooks/usePageTitle"
 
 const HomePageLayout = () => {
-    usePageTitle('صفحه اصلی 🟡')
+    usePageTitle('صفحه اصلی')
 
     return (
         <>
-        // Home Page Pattern
             <Pattern />
-        // Home Page | Header
             <Header />
         </>
     )

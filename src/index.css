@@ -67,6 +67,10 @@
 }
 
 @theme {
+  /* Primary Color */
+  --color-Gold: #FFE5B0;
+  --color-Alpine: #0BA258;
+
   /* Status Colors */
   --color-Error: #c30000;
   --color-Error-Light: #ed2e2e;
