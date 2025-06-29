@@ -4,4 +4,5 @@ export interface UseTypewriterOptions {
     delay?: number;
 }
 
-export type ToastStatus = "success" | "error" | "warrning" | 'info'
+export type ToastStatus = "success" | "error" | "warning" | 'info'
+

@@ -9,7 +9,7 @@ import LogoType from "../ui/LogoType"
 
 const Header = (): JSX.Element => {
     return (
-        <header>
+        <header>    
             <div className="container">
                 {/* Margin Example */}
                 <div className="pt-13.5 max-md:pt-8">
@@ -27,7 +27,7 @@ const Header = (): JSX.Element => {
                         {/* Download Resume Button */}
                         <a href="/public/downloads/Main_Resume.pdf" download={"Main-Resume"} className="max-md:hidden px-2 h-8 bg-Gold text-black rounded-md flex items-center gap-x-1 transition-colors hover:bg-Gold/80">
                             <HiArrowDownOnSquare className="size-4" />
-                            <span className="relative top-0.5 text-sm font-Dana-Medium">دانلود روزمه</span>
+                            <span className="relative top-0.5 text-sm font-Dana-SemiBold">دانلود روزمه</span>
                         </a>
                     </div>
                 </div>
