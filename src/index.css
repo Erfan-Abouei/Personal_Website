@@ -2,6 +2,10 @@
 
 @layer base {
 
+  body {
+    @apply bg-black
+  }
+
   /* Dana Fonts */
   @font-face {
     font-family: "Dana";
@@ -76,7 +80,7 @@
   --color-Warning-Light: #f4b740;
   --color-Warning-EXLight: #fff8e1;
 
-  
+
   /* Fonts */
   --font-Dana: "Dana";
   --font-Dana-Medium: "Dana Medium";
