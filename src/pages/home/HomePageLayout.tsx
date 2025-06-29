@@ -1,9 +1,11 @@
 import type { JSX } from "react"
 
+import usePageTitle from "@/hooks/usePageTitle"
+
 import Header from "@/components/layout/Header"
 import Pattern from "@/components/ui/Pattern"
-import usePageTitle from "@/hooks/usePageTitle"
 import HeroSection from "./components/HeroSection"
+import AbilitySection from "./components/AbilitySection"
 
 const HomePageLayout = (): JSX.Element => {
     usePageTitle('صفحه اصلی')
@@ -19,6 +21,8 @@ const HomePageLayout = (): JSX.Element => {
             <main>
                 {/* Home Page | Hero Section */}
                 <HeroSection />
+                {/* Home Page | Ability Section */}
+                <AbilitySection />
             </main>
 
         </>

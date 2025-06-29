@@ -1,5 +1,5 @@
 import MainButton from "@/components/ui/MainButton"
-import UsernameBox from "@/components/ui/UsernameBox"
+import UsernameBox from "@/pages/home/components/UsernameBox"
 import useTypewriter from "@/hooks/useTypeWriter"
 import showToast from "@/utils/showToast"
 import type { JSX } from "react"
