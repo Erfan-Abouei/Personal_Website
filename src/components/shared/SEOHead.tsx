@@ -1,7 +1,7 @@
 // *** NOT WORKING IN REACT 19 ***
 
 import type { JSX } from "react";
-import type { SEOHeadProps } from "@/types/components-props";
+import type { SEOHeadProps } from "@/types/components-props.types";
 import { Helmet } from 'react-helmet';
 
 const SEOHead = ({ title, description }: SEOHeadProps): JSX.Element => {

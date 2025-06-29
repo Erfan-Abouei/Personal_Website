@@ -66,10 +66,22 @@
   @apply mx-auto px-8 xl:px-15.5;
 }
 
+@layer components {
+  .Toastify__toast {
+    font-family: var(--font-Dana-SemiBold) !important;
+    font-size: 12px;
+  }
+
+  .Toastify__close-button {
+    display: none !important;
+  }
+}
+
 @theme {
   /* Primary Color */
   --color-Gold: #FFE5B0;
   --color-Alpine: #0BA258;
+  --color-Alpine-20: #1D2A25;
 
   /* Status Colors */
   --color-Error: #c30000;
@@ -84,6 +96,8 @@
   --color-Warning-Light: #f4b740;
   --color-Warning-EXLight: #fff8e1;
 
+  --drop-shadow-custom: 0px 0px 8px;
+
 
   /* Fonts */
   --font-Dana: "Dana";
@@ -93,15 +107,11 @@
   --font-Morabba-Medium: "Morabba Medium";
   --font-Morabba-Bold: "Morabba Bold";
 
+  /* Font Size */
+  --text-custom: 0.625rem;
+
   /* Remove 2x Breake Point */
   --breakpoint-2xl: initial;
   --breakpoint-xs: 27.5rem;
 
-  /* Font Size */
-  --text-custom: 0.625rem;
-  --text-4.5xl: 2.5rem;
-  /* Others */
-  --bg-gradient: linear-gradient(to left,
-      rgba(0, 0, 0, 0.568) 50%,
-      transparent 100%);
 }

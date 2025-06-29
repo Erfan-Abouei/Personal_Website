@@ -19,7 +19,7 @@ const Header = (): JSX.Element => {
                             <a href="#about-me" className="transition-opacity hover:opacity-80 h-8 px-4.5 rounded-md bg-[#161616] flex items-center justify-center text-sm font-Dana text-white">درباره من</a>
                             <a href="#" className="transition-colors hover:text-white/80 h-8 px-4.5 flex items-center justify-center text-sm font-Dana text-white relative top-0.5">اینستاگرام</a>
                         </div>
-                        <LogoType />
+                        <LogoType customClass="md:relative md:-right-9" />
                         {/* Bars Icon */}
                         <span className="md:hidden">
                             <HiBars3CenterLeft className="size-8 max-md:size-6 text-white" />
