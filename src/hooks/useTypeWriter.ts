@@ -39,7 +39,7 @@ const useTypewriter = (
         }
 
         return () => clearTimeout(timeout);
-    }, [index, text, speed, loop, delay, isDeleting]);
+    }, [index, speed, loop, delay, isDeleting]);
 
     return displayText;
 };

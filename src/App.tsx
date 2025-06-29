@@ -3,11 +3,13 @@ import AllRoute from "./routes/routes.tsx"
 
 const App = () => {
   return (
-    <Router>
-      <Routes>
-        {AllRoute}
-      </Routes>
-    </Router>
+    <>
+      <Router>
+        <Routes>
+          {AllRoute}
+        </Routes>
+      </Router>
+    </>
   )
 }
 
