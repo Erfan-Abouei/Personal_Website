@@ -1,5 +1,5 @@
 import MainButton from "@/components/ui/MainButton"
-import UsernameBox from "@/components/ui/UsernameBox"
+import UsernameBox from "@/pages/home/components/UsernameBox"
 import useTypewriter from "@/hooks/useTypeWriter"
 import showToast from "@/utils/showToast"
 import type { JSX } from "react"
@@ -12,7 +12,7 @@ const HeroSection = (): JSX.Element => {
     })
 
     return (
-        <section className="hero-section mt-22 max-md:mt-11">
+        <section className="hero-section my-25 max-md:my-12">
             <div className="container">
                 {/* Section Body */}
                 <div className="flex flex-col items-center justify-center">
@@ -28,7 +28,7 @@ const HeroSection = (): JSX.Element => {
                         </p>
                         {/* Action Buttons */}
                         <div className="flex items-center gap-x-2.5">
-                            <MainButton withBorder={false} onClick={() => showToast('این ویژگی به زودی فعال میشه', 'error')}>درخواست همکاری</MainButton>
+                            <MainButton withBorder={false} onClick={() => showToast('این وبسایت هنوز در دست توسعه هست عزیزم :)', 'error')}>درخواست همکاری</MainButton>
                         </div>
                     </div>
                 </div>
