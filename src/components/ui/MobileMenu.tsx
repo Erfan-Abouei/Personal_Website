@@ -20,7 +20,7 @@ const MobileMenu = ({ isOpenMobileMenu, onOpenMobileMenu, onOpenAboutMeModal }: 
                 {/* About Me Button ( With <button> Tag ) */}
                 <button onClick={() => onOpenAboutMeModal()} className="flex items-center gap-x-1 text-white h-6 px-2 rounded-md bg-black">
                     <HiLightBulb className="size-4" />
-                    <span className="text-custom font-Dana relative top-0.5">درباره من</span>
+                    <span className="text-custom font-Dana">درباره من</span>
                 </button>
 
             </div>
