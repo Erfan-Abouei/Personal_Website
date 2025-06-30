@@ -75,6 +75,15 @@
   .Toastify__close-button {
     display: none !important;
   }
+
+  #nprogress .bar {
+    background: #FFE5B0 !important;
+    height: 3px;
+  }
+
+  #nprogress .peg {
+    box-shadow: 0 0 10px #FFE5B0, 0 0 5px #FFE5B0 !important;
+  }
 }
 
 @theme {
