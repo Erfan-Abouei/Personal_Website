@@ -4,19 +4,20 @@ import { HiArrowDownOnSquare } from "react-icons/hi2";
 
 // Other Components
 import type { JSX } from "react";
+import type { HeaderProp } from "@/types/components-props.types";
 
 import LogoType from "../ui/LogoType"
 
-const Header = (): JSX.Element => {
+const Header = ({ onOpenModal }: HeaderProp): JSX.Element => {
     return (
-        <header>    
+        <header>
             <div className="container">
                 {/* Margin Example */}
                 <div className="pt-13.5 max-md:pt-8">
                     <div className="flex items-center justify-between">
                         <div className="flex items-center max-md:hidden">
                             {/* Action Button */}
-                            <a href="#about-me" className="transition-opacity hover:opacity-80 h-8 px-4.5 rounded-md bg-[#161616] flex items-center justify-center text-sm font-Dana text-white">درباره من</a>
+                            <button onClick={() => onOpenModal()} className="transition-opacity hover:opacity-80 h-8 px-4.5 rounded-md bg-[#161616] flex items-center justify-center text-sm font-Dana text-white">درباره من</button>
                             <a href="#" className="transition-colors hover:text-white/80 h-8 px-4.5 flex items-center justify-center text-sm font-Dana text-white relative top-0.5">اینستاگرام</a>
                         </div>
                         <LogoType customClass="md:relative md:-right-9" />

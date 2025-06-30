@@ -1,4 +1,4 @@
-import React, { useEffect, type JSX } from 'react';
+import { useEffect, type JSX } from 'react';
 import { useLocation } from 'react-router';
 import NProgress from 'nprogress';
 
@@ -13,7 +13,7 @@ const RouterProgress = (): JSX.Element | null => {
         NProgress.start();
 
         NProgress.done();
-    }, [location]);
+    }, [location.pathname]);
 
     return null;
 }
