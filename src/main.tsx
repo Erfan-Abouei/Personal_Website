@@ -7,7 +7,6 @@ import App from './App.tsx'
 import LoadingScreen from './components/layout/LoadingScreen.tsx'
 import { Bounce, ToastContainer } from 'react-toastify'
 import AnimatedCursor from 'react-animated-cursor'
-import RouterProgress from './components/shared/RouterProgress.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
