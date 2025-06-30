@@ -5,7 +5,7 @@ import { HiLightBulb } from "react-icons/hi2";
 
 const AboutMeModal = ({ isShow, onShowModal }: AboutMeModalProps) => {
     return (
-        <div className={`z-30 p-2 drop-shadow-custom drop-shadow-Gold/50 fixed m-auto inset-0 max-w-80 h-max bg-Gold rounded-2xl transition-all ${isShow ? 'visible opacity-100' : 'invisible opacity-0'}`}>
+        <div className={`z-30 p-2 drop-shadow-custom drop-shadow-Gold/50 fixed m-auto inset-0 max-w-80 h-max bg-Gold rounded-2xl transition-all duration-500 ${isShow ? 'visible opacity-100' : 'invisible opacity-0'}`}>
             {/* Icon */}
             <div className="size-20 flex items-center justify-center rounded-full bg-Gold -mt-12 mx-auto">
                 <HiLightBulb className="text-black size-12 animate-pulse" />
