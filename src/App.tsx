@@ -5,7 +5,7 @@ import RouterProgress from "./components/shared/RouterProgress.tsx"
 const App = () => {
   return (
     <>
-      <Router>
+      <Router basename="/Personal_Website">
         <RouterProgress />
         <Routes>
           {AllRoute}

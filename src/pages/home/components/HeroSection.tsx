@@ -12,7 +12,7 @@ const HeroSection = (): JSX.Element => {
     })
 
     return (
-        <section className="hero-section my-25 max-md:my-12">
+        <section className="hero-section mt-25 max-md:mt-12 mb-2">
             <div className="container">
                 {/* Section Body */}
                 <div className="flex flex-col items-center justify-center">
