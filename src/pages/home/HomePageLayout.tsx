@@ -21,7 +21,7 @@ const HomePageLayout = (): JSX.Element => {
             <Pattern />
 
             {/* Home Page | Header */}
-            <Header onOpenModal={handleOpenModal} />
+            <Header onOpenAboutMeModal={handleOpenModal} />
 
             <main>
                 {/* Home Page | Hero Section */}
@@ -33,7 +33,6 @@ const HomePageLayout = (): JSX.Element => {
 
             {/* Overlay */}
             <Overlay isShow={isShowAboutMeModal} />
-
         </>
     )
 }
