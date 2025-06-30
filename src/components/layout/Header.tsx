@@ -32,7 +32,7 @@ const Header = ({ onOpenAboutMeModal }: HeaderProp): JSX.Element => {
                             <HiBars3CenterLeft className="size-8 max-md:size-6 text-white" />
                         </span>
                         {/* Download Resume Button */}
-                        <a href="/public/downloads/Main_Resume.pdf" download={"Main-Resume"} className="max-md:hidden px-2 h-8 bg-Gold text-black rounded-md flex items-center gap-x-1 transition-colors hover:bg-Gold/80">
+                        <a href="/Personal_Website/downloads/Main_Resume.pdf" download={"Main-Resume"} className="max-md:hidden px-2 h-8 bg-Gold text-black rounded-md flex items-center gap-x-1 transition-colors hover:bg-Gold/80">
                             <HiArrowDownOnSquare className="size-4" />
                             <span className="relative top-0.5 text-sm font-Dana-SemiBold">دانلود روزمه</span>
                         </a>

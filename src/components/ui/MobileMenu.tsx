@@ -12,7 +12,7 @@ const MobileMenu = ({ isOpenMobileMenu, onOpenMobileMenu, onOpenAboutMeModal }: 
             <div className="flex items-center gap-x-2 pr-2">
 
                 {/* Download Resume Button ( With <a> Tag )*/}
-                <a href="/public/downloads/Main_Resume.pdf" download={'Main-Resume.pdf'} className="flex items-center gap-x-1 text-white h-6 px-2 rounded-md bg-black">
+                <a href="/Personal_Website/downloads/Main_Resume.pdf" download={'Main-Resume'} className="flex items-center gap-x-1 text-white h-6 px-2 rounded-md bg-black">
                     <HiArrowDownCircle className="size-4" />
                     <span className="text-custom font-Dana relative top-0.5">دانلود رزومه</span>
                 </a>
