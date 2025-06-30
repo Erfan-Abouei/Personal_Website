@@ -19,3 +19,16 @@ export type MainButtonProps = {
     withBorder: boolean
     onClick?: () => void
 }
+
+export type AboutMeModalProps = {
+    isShow: boolean
+    onShowModal: () => void
+}
+
+export type HeaderProp = {
+    onOpenModal: () => void
+}
+
+export type OverlayProp = {
+    isShow: boolean
+}

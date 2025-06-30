@@ -28,7 +28,7 @@ const HeroSection = (): JSX.Element => {
                         </p>
                         {/* Action Buttons */}
                         <div className="flex items-center gap-x-2.5">
-                            <MainButton withBorder={false} onClick={() => showToast('این وبسایت هنوز در دست توسعه هست عزیزم :)', 'error')}>درخواست همکاری</MainButton>
+                            <MainButton withBorder={false} onClick={() => showToast('فعلا مشغول توسعه این بخشم منتظر باش :)', 'error')}>درخواست همکاری</MainButton>
                         </div>
                     </div>
                 </div>
