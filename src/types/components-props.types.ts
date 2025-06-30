@@ -1,5 +1,3 @@
-import type React from "react";
-
 export type SEOHeadProps = {
     title: string;
     description?: string
@@ -26,9 +24,15 @@ export type AboutMeModalProps = {
 }
 
 export type HeaderProp = {
-    onOpenModal: () => void
+    onOpenAboutMeModal: () => void
 }
 
 export type OverlayProp = {
     isShow: boolean
+}
+
+export type MobileMenuProps = {
+    isOpenMobileMenu: boolean;
+    onOpenMobileMenu: () => void;
+    onOpenAboutMeModal: () => void
 }

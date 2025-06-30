@@ -7,6 +7,7 @@ import Pattern from "@/components/ui/Pattern"
 import HeroSection from "./components/HeroSection"
 import AboutMeModal from "./components/AboutMeModal"
 import Overlay from "@/components/ui/Overlay"
+import SocialMediaButton from "@/components/shared/SocialMediaButton"
 
 const HomePageLayout = (): JSX.Element => {
     usePageTitle('صفحه اصلی')
@@ -21,7 +22,7 @@ const HomePageLayout = (): JSX.Element => {
             <Pattern />
 
             {/* Home Page | Header */}
-            <Header onOpenModal={handleOpenModal} />
+            <Header onOpenAboutMeModal={handleOpenModal} />
 
             <main>
                 {/* Home Page | Hero Section */}
@@ -33,6 +34,9 @@ const HomePageLayout = (): JSX.Element => {
 
             {/* Overlay */}
             <Overlay isShow={isShowAboutMeModal} />
+
+            {/* Social Media Buttons */}
+            <SocialMediaButton />
 
         </>
     )
