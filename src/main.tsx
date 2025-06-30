@@ -19,7 +19,7 @@ createRoot(document.getElementById('root')!).render(
         outerAlpha={0.2}
         innerScale={0.7}
         outerScale={7}
-        showSystemCursor={false}
+        showSystemCursor={true}
       />
       <ToastContainer
         position="bottom-right"
@@ -29,9 +29,6 @@ createRoot(document.getElementById('root')!).render(
         closeOnClick={false}
         rtl
         limit={10}
-        pauseOnFocusLoss
-        draggable
-        pauseOnHover
         theme="dark"
         transition={Bounce} />
     </Suspense>

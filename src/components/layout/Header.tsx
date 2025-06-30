@@ -24,7 +24,7 @@ const Header = ({ onOpenAboutMeModal }: HeaderProp): JSX.Element => {
                         <div className="flex items-center max-md:hidden">
                             {/* Action Button */}
                             <button onClick={() => onOpenAboutMeModal()} className="transition-opacity hover:opacity-80 h-8 px-4.5 rounded-md bg-[#161616] flex items-center justify-center text-sm font-Dana text-white">درباره من</button>
-                            <a href="#" className="transition-colors hover:text-white/80 h-8 px-4.5 flex items-center justify-center text-sm font-Dana text-white relative top-0.5">اینستاگرام</a>
+                            <a href="https://instagram.com/ErFaN_AbOuEi" target="_blank" className="transition-colors hover:text-white/80 h-8 px-4.5 flex items-center justify-center text-sm font-Dana text-white relative top-0.5">اینستاگرام</a>
                         </div>
                         <LogoType customClass="md:relative md:-right-9" />
                         {/* Bars Icon */}
