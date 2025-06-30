@@ -2,9 +2,10 @@
 import { HiBars3CenterLeft } from "react-icons/hi2";
 import { HiArrowDownOnSquare } from "react-icons/hi2";
 
+import type { HeaderProp } from "@/types/components-props.types";
+
 // Other Components
 import { useState, type JSX } from "react";
-import type { HeaderProp } from "@/types/components-props.types";
 
 import LogoType from "../ui/LogoType"
 import MobileMenu from "../ui/MobileMenu";
